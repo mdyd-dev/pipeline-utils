@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def gitCommitAuthor() {
+def call() {
   sh(
     script: "git --no-pager show -s --format='%an'",
     returnStdout: true
