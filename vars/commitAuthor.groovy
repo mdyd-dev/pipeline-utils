@@ -6,6 +6,9 @@ def call() {
   lookupNames["Maciej Krajowski-Kukiel"] = "@maciek"
   lookupNames["piotrze"] = "@piotrze"
   lookupNames["godot"] = "@godot"
+  lookupNames["Paweł Kowalski"] = "@Pawel"
+  lookupNames["Developer-DNM"] = "@adam"
+  lookupNames["Jacek Norbert"] = "@jacek"
 
   def name = sh(
     script: "git --no-pager show -s --format='%an'",
