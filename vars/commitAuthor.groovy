@@ -3,7 +3,7 @@
 def call() {
   def lookupNames = [:]
   lookupNames["Ignacy Moryc"] = "@ignacy"
-  lookupNames["Maciej Krajowski-Kukiel"] = "@Slashek"
+  lookupNames["Maciej Krajowski-Kukiel"] = "@maciek"
   lookupNames["piotrze"] = "@piotrze"
   lookupNames["godot"] = "@godot"
 
