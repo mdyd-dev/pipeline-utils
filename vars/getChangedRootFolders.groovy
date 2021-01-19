@@ -5,7 +5,7 @@ def call(def folderNames) {
 
   for (def folder in folderNames) {
     for (def path in getChangedFiles()) {
-      if ( path ==~ folder) {
+      if (path ==~ /${folder}\/.*/) {
         changed.add(folder)
       }
     }
